@@ -714,6 +714,7 @@ MIX_ENV=test mix coveralls.html && open cover/excoveralls.html
 ```
 <br />
 This will open the Coverage Report (HTML) in your default Web Browser: <br />
+
 ![coverage-report-59 3-percent](https://user-images.githubusercontent.com/194400/36425359-7637adfc-163e-11e8-9c9f-3c4fcbcded32.png)
 
 
@@ -722,8 +723,10 @@ the coverage threshold in `coveralls.json` form `100` to `50`
 for this command to work because it's expecting 100% coverage._</small>
 
 
+
 <!-- I think I'm at a point where I need to take a "Detour"
 to write up my **Definitive** thoughts on "Test Coverage" once-and-for-all! -->
+
 
 
 
@@ -756,6 +759,11 @@ env:
 script: # run the tests:
   - mix test
 ```
+
+You will need to _enable_ your project on Travis-CI
+for the build to run. <br />
+Please see: https://github.com/dwyl/learn-travis#getting-started
+
 
 
 # Deployment!
