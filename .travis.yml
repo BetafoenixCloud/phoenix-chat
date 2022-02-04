@@ -6,4 +6,6 @@ addons: # ensure that Travis-CI provisions a DB for our test:
 env:
   - MIX_ENV=test
 script: # run the tests:
-  - mix test
+  - mix cover
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
