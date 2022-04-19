@@ -867,7 +867,7 @@ test "ping replies with status ok", %{socket: socket} do
   assert_reply ref, :ok, %{"hello" => "there"}
 end
 ```
-The test gets the `socket` from the `setup` function (_on line 6 of the file_)
+The test get's the `socket` from the `setup` function (_on line 6 of the file_)
 and assigns the result of calling the `push` function to a variable `ref`
 `push` merely _pushes_ a message (_the map `%{"hello" => "there"}`_)
 on the `socket` to the `"ping"` ***topic***.
@@ -908,9 +908,10 @@ Open your `mix.exs` file and find the "deps" function:
 defp deps do
 ```
 
-Add the following line to the end of the List:
+Add a comma to the end of the last line, then add the following line to the end
+of the List:
 ```elixir
-{:excoveralls, "~> 0.13.0", only: [:test, :dev]}, # tracking test coverage
+{:excoveralls, "~> 0.13.0", only: [:test, :dev]} # tracking test coverage
 ```
 
 Additionally, find the `def project do` section (_towards the top of `mix.exs`_)
