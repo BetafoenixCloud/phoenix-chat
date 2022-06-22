@@ -57,9 +57,6 @@ defmodule Chat.Mixfile do
       {:plug_cowboy, "~> 2.5.2"},
       {:plug_crypto, "~> 1.2.2"},
 
-      # Wake Heroku App. See: https://github.com/dwyl/ping
-      {:ping, "~> 1.1.0"},
-
       # sanitise data to avoid XSS see: https://git.io/fjpGZ
       {:html_sanitize_ex, "~> 1.4"},
 
@@ -68,8 +65,6 @@ defmodule Chat.Mixfile do
       {:excoveralls, "~> 0.14.4", only: [:test, :dev]},
       # documentation
       {:inch_ex, "~> 2.1.0-rc.1", only: :docs},
-      # github.com/dwyl/learn-pre-commit
-      {:pre_commit, "~> 0.3.4", only: :dev}
     ]
   end
 
