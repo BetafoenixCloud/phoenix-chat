@@ -5,15 +5,13 @@
 ![phoenix-chat-logo](https://user-images.githubusercontent.com/194400/39481553-c448aa1c-4d63-11e8-9389-47789833a96e.png)
 
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dwyl/phoenix-chat-example/Elixir%20CI?label=build&style=flat-square)
-[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/phoenix-chat-example/main.svg?style=flat-square)](http://codecov.io/github/dwyl/phoenix-chat-example?branch=main)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/phoenix-chat-example/issues)
-[![HitCount](http://hits.dwyl.com/dwyl/phoenix-chat-example.svg)](https://github.com/dwyl/phoenix-chat-example)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/BetafoenixCloud/phoenix-chat/Elixir%20CI?label=build&style=flat-square)
+[![codecov.io](https://img.shields.io/codecov/c/github/BetafoenixCloud/phoenix-chat/main.svg?style=flat-square)](http://codecov.io/github/BetafoenixCloud/phoenix-chat?branch=main)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/BetafoenixCloud/phoenix-chat/issues)
+[![HitCount](http://hits.dwyl.com/BetafoenixCloud/phoenix-chat.svg)](https://github.com/BetafoenixCloud/phoenix-chat)
 [![Hex pm](http://img.shields.io/hexpm/v/phoenix.svg?style=flat-square)](https://hex.pm/packages/phoenix)
 _Try_ it: https://phxchat.herokuapp.com
-<!-- [![Deps Status](https://beta.hexfaktor.org/badge/all/github/dwyl/phoenix-chat-example.svg?style=flat-square)](https://beta.hexfaktor.org/github/dwyl/phoenix-chat-example) -->
-<!-- [![Inline docs](http://inch-ci.org/github/dwyl/phoenix-chat-example.svg?style=flat-square)](http://inch-ci.org/github/dwyl/phoenix-chat-example) -->
-<!-- wake Heroku app so it loads faster! see: https://github.com/dwyl/ping -->
+
 ![wake-sleeping-heroku-app](https://phxtodo.herokuapp.com/ping)
 
 
@@ -108,14 +106,12 @@ but if you think we "_skipped a step_"
 or  you feel "_stuck_" for any reason,
 or have _any_ questions (_related to this example_),
 please open an issue on GitHub! <br />
-Both the @dwyl and Phoenix communities are _super **beginner-friendly**_,
+Both the @phoenix and Phoenix communities are _super **beginner-friendly**_,
 so don't be afraid/shy. <br />
 Also, by asking questions, you are helping everyone
 that is or might be stuck with the _same_ thing!
 + **Chat App _specific_** questions:
-https://github.com/dwyl/phoenix-chat-example/issues
-+ **General** Learning Phoenix questions:
-https://github.com/dwyl/learn-phoenix-framework/issues
+https://github.com/BetafoenixCloud/phoenix-chat/issues
 
 
 # _How_?
@@ -130,7 +126,7 @@ scroll down to the "Clone Repo and Run on Localhost" section instead.
 ## 0. Pre-requisites (_Before you Start_)
 
 1. **Elixir _Installed_** on your **local machine**. <br />
-  see: https://github.com/dwyl/learn-elixir#installation <br />
+  see: https://github.com/WhiteRookPL/learn-elixir-the-hard-way <br />
   e.g: <br />
 ```
 brew install elixir
@@ -148,13 +144,8 @@ mix archive.install hex phx_new 1.6.2
 ```
 
 3. PostgreSQL (Database Server) installed (_to save chat messages_) <br />
-see: [https://github.com/dwyl/**learn-postgresql#installation**](https://github.com/dwyl/learn-postgresql#installation)
-
-<!-- update instructions to https://hexdocs.pm/phoenix/installation.html -->
 
 4. Basic **Elixir Syntax** knowledge will help,<br />
-please see:
-[https://github.com/dwyl/**learn-elixir**](https://github.com/dwyl/learn-elixir)
 
 5. Basic **JavaScript** knowledge is _advantageous_
 (_but not essential as the "front-end" code
@@ -213,7 +204,7 @@ to get an idea of what to expect.
 In your terminal run the following command to clone the repo:
 
 ```sh
-git clone git@github.com:dwyl/phoenix-chat-example.git
+git clone git@github.com:BetafoenixCloud/phoenix-chat.git
 ```
 
 ### Install the Dependencies
@@ -424,7 +415,7 @@ and if you _specifically_ want to understand the Milligram _forms_,
 see: https://milligram.io/#forms
 
 Your `index.html.eex` template file should look like this:
-[`/lib/chat_web/templates/page/index.html.eex`](https://github.com/dwyl/phoenix-chat-example/blob/7e9d5f0e8fd69d3c13f6fe7814d81a9d7ec602ca/lib/chat_web/templates/page/index.html.eex) (_snapshot_)
+[`/lib/chat_web/templates/page/index.html.eex`](https://github.com/BetafoenixCloud/phoenix-chat/blob/7e9d5f0e8fd69d3c13f6fe7814d81a9d7ec602ca/lib/chat_web/templates/page/index.html.eex) (_snapshot_)
 
 
 ### 3.1 Update Layout Template
@@ -553,7 +544,7 @@ Hopefully the in-line comments are self-explanatory,
 but if _anything_ is unclear, please ask!
 
 At this point your `app.js` file should look like this:
-[`/assets/js/app.js`](https://github.com/dwyl/phoenix-chat-example/blob/7c3f94f127adfac05fe6b11a4ba3196802d9cfe2/assets/js/app.js)
+[`/assets/js/app.js`](https://github.com/BetafoenixCloud/phoenix-chat/blob/7c3f94f127adfac05fe6b11a4ba3196802d9cfe2/assets/js/app.js)
 
 
 ### 4.1 Comment Out Lines in `socket.js`
@@ -582,7 +573,7 @@ Comment out the lines so they will not be executed:
 ```
 
 Your `socket.js` should now look like this:
-[`/assets/js/socket.js`](https://github.com/dwyl/phoenix-chat-example/blob/26f98f2dbca061f6cc383dfd99861325113eaf1b/assets/js/socket.js)
+[`/assets/js/socket.js`](https://github.com/BetafoenixCloud/phoenix-chat/blob/26f98f2dbca061f6cc383dfd99861325113eaf1b/assets/js/socket.js)
 
 > If you later decide to tidy up your chat app, you can **`delete`**
 these commented lines from the file. <br />
@@ -820,11 +811,6 @@ _or_ join in a different browser and you will still see the history!
 
 Automated testing is one of the _best_ ways to ensure _reliability_
 in your web applications.
-
-> _**Note**: If you are completely new to Automated Testing
-or "Test Driven Development" ("TDD"),
-we recommend reading/following the "basic" tutorial:_
-[github.com/dwyl/**learn-tdd**](https://github.com/dwyl/learn-tdd)
 
 Testing in Phoenix is fast (_tests run in parallel!_)
 and easy to get started!
@@ -1091,14 +1077,6 @@ This prevents accidentally "_breaking_" your app.
 
 _Thankfully_ the steps are quite simple.
 
-> _If you are `new` to Continuous Integration, or need a refresher,
-we wrote a step-by-step tutorial for it!
-see_:
-[github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
-
-The Elixir-specific section is:
-https://github.com/dwyl/learn-travis#elixir-lang
-
 We only need to add `.travis.yml` file to the project
 with the following lines:
 ```yml
@@ -1112,51 +1090,7 @@ env:
 script: # run the tests:
   - mix test
 ```
-
-You will need to _enable_ your project on Travis-CI
-for the build to run. <br />
-Please see: https://github.com/dwyl/learn-travis#getting-started
-
 <br />
-
-# Deployment!
-
-Deployment to Heroku takes a few minutes,
-but has a few "steps",
-therefore we have created a _separate_
-guide for it:
- [elixir-phoenix-app-deployment.md](https://github.com/dwyl/learn-heroku/blob/master/elixir-phoenix-app-deployment.md)
-
-Once you have _deployed_ you will will be able
-to view/use your app in any Web/Mobile Browser.
-
-e.g: https://phxchat.herokuapp.com <br />
-![phxchat](https://user-images.githubusercontent.com/194400/36480000-9c6fe768-1702-11e8-86d6-c8703883096c.png)
-
-<br />
-
-
-![thats-all-folks](https://user-images.githubusercontent.com/194400/36492991-6bc5dd42-1726-11e8-9d7b-a11c44d786a0.jpg)
-
-<br />
-
-## What _Next_?
-
-If you found this example useful, please ⭐️ the GitHub repository
-so we (_and others_) know you liked it!
-
-If you want to learn more Phoenix and the magic of **`LiveView`**,
-consider reading our beginner's tutorial:
-[github.com/dwyl/**phoenix-liveview-counter-tutorial**](https://github.com/dwyl/phoenix-liveview-counter-tutorial)
-
-For a version of a chat application using **LiveView** you can read the following repository:
-[github.com/dwyl/**phoenix-liveview-chat-example**](https://github.com/dwyl/phoenix-liveview-chat-example)
-
-Thank you for learning with us! ☀️
-
-
-<br /> <br />
-
 
 ## Inspiration
 

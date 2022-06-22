@@ -25,7 +25,7 @@ defmodule ChatWeb.RoomChannel do
   end
 
   # Add authorization logic here as required.
-  # Auth coming soon via: https://github.com/dwyl/phoenix-chat-example/issues/54
+  # Auth coming soon via: https://github.com/BetafoenixCloud/phoenix-chat/issues/54
   # defp authorized?(_payload) do
   #   true
   # end
