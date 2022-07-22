@@ -8,7 +8,6 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/BetafoenixCloud/phoenix-chat/Elixir%20CI?label=build&style=flat-square)
 [![codecov.io](https://img.shields.io/codecov/c/github/BetafoenixCloud/phoenix-chat/main.svg?style=flat-square)](http://codecov.io/github/BetafoenixCloud/phoenix-chat?branch=main)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/BetafoenixCloud/phoenix-chat/issues)
-[![HitCount](http://hits.dwyl.com/BetafoenixCloud/phoenix-chat.svg)](https://github.com/BetafoenixCloud/phoenix-chat)
 [![Hex pm](http://img.shields.io/hexpm/v/phoenix.svg?style=flat-square)](https://hex.pm/packages/phoenix)
 _Try_ it: https://phxchat.herokuapp.com
 
